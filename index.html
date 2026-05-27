@@ -1,85 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
 </head>
-<body>
-<header>
-    <img src="" alt="">
-    <nav><a href=""></a><a href=""></a><a href=""></a><a href=""></a></nav>
-</header>
-<main>
-<section>
-    <h1>HELLO !</h1>
-    <P>Moi c'est romain
-        je cherche une alternance 
-    </P>
-    <p>pour
-        une formation data analyst ou scientist</p>
-</section>
-<section>
-    <div><h2>Mes projets</h2></div>
-    <!-- motion designer -->
-    <div>
-        <img src="" alt="">
-        <h3>motion designer</h3>
-        <p>exercice durant la formation la toile dans lequel je devais realiser un site suivant un modèle selectionné et des consigne en mise en page</p>
-    </div>
-    <!-- interno -->
-     <div>
-        <img src="" alt="">
-        <h3>interno</h3>
-        <p>exercice durant la formation la toile dans lequel je devais realiser un site suivant un modèle selectionné et des consigne en mise en page</p>
-    </div>
-    <!-- application sport figma  -->
-     <div>
-        <img src="" alt="">
-        <h3>application sport figma</h3>
-        <p>exercice durant la formation la toile dans lequel je devais realiser un site suivant un modèle </p>
-    </div>
-     <div>
-        <img src="" alt="">
-        <h3>projet perso : monster hunter wheel party hunt </h3>
-        <p>projet réalisé dans le cadre du personnel. il à été réalisé dans le but de créer un plus qui permettrait de mieux profiter des jeux monster hunter</p>
-    </div>
-</section>
-<section>
-    <div> mon parcours</div>
-    <div>
-        <div>
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-        </div>
 
-    </div>
-</section>
-</main>
-<footer>
-<div>
-    <h2></h2>
-    <a href="">romaincharles42@gmail.com</a>
-</div>
-<a href=""><link rel="stylesheet" href=""><img src="" alt=""></a>
-</footer>
+<body class="body">
+    <header class="flex spacebetween">
+        <img src="assets/Image.jpg" alt="" class="photo">
+        <nav><a href="">Mon parcours</a><a href="">Mes competences</a><a href="">Mes projets</a><a href=""> Me
+                Contacter</a></nav>
+    </header>
+    <main>
+        <section>
+            <h1>HELLO !</h1>
+            <P>Moi c'est romain
+                je cherche une alternance
+            </P>
+            <p>pour une formation data analyst/scientist ou developpeur Front-end</p>
+        </section>
+        <section> <!-- mes projets  -->
+            <div>
+                <h2>Mes projets</h2>
+            </div>
+
+            <div class="flex justifycenter ">
+                <!-- motion designer -->
+                <div class="cardqualite flex spacebetween marright400 txtcenter">
+                    <div>
+                    <img src="assets/Designer.png" alt="" class="w30">
+                    </div>
+                    
+                    <div>
+                        <h3>motion designer</h3>
+                        <p>exercice durant la formation la toile dans lequel je devais realiser un site suivant un
+                            modèle
+                            selectionné et des consigne en mise en page</p>
+                    </div>
+                </div>
+                <!-- interno -->
+                <div class="cardqualite txtcenter">
+                    <img src="assets/interno mockup.png" alt="" class="w30">
+                    <h3>interno</h3>
+                    <p>exercice durant la formation la toile dans lequel je devais realiser un site suivant un modèle
+                        selectionné et des consigne en mise en page</p>
+                </div>
+            </div>
+
+            <div class="flex justifycenter martop100">
+                <!-- application sport figma  -->
+                <div class="cardqualite marright400 txtcenter">
+                    <img src="assets/appli sport figma.png" alt="" class="w30">
+                    <h3>application sport figma</h3>
+                    <p>exercice durant la formation la toile dans lequel je devais realiser un site suivant un modèle
+                    </p>
+                </div>
+
+
+                <div class="cardqualite txtcenter">
+                    <img src="assets/site monster_hunter.png" alt="" class="w30">
+                    <h3>projet perso : monster hunter wheel party hunt </h3>
+                    <p>projet réalisé dans le cadre du personnel. il à été réalisé dans le but de créer un plus qui
+                        permettrait de mieux profiter des jeux monster hunter</p>
+                </div>
+            </div>
+        </section>
+        <section class="martop100  justifycenter"><!-- mon parcours  -->
+            <div> mon parcours</div>
+            <div class="flex spacebetween txtcenter ">
+                <div class="cardqualite w30">
+                    <img src="assets/beauregard.jpg" alt="" class="w50 padtop100 padbottom100">
+                    <h3>lycée Beauregard bac gestion administration 2016-2018</h3>
+                    <p class="">Obtention du baccalauréat en 2018</p>
+                </div>
+                <div class="cardqualite w30">
+                    <img src="assets/bts.png" alt="" class="w50 padbottom100 padtop100">
+                    <h3>lycée Arago St Anne BTS comptabilité gestion 2018-2021</h3>
+                    <p>Obtention du BTS comptabilité en 2021</p>
+                </div>
+                <div class="cardqualite w30">
+                    <img src="assets/latoile logo.png" alt="" class="w50 padbottom40">
+                    <h3>Latoile StEtienne Em-lyon formation développeur Web</h3>
+                    <p>Obtention du certificat apprentissage d'HTML,CSS,javascript,gestion de projet
+                    </p>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- mes qualité -->
+        <section class="martop100">
+            <div class="flex justifycenter">
+                <h3>MES QUALITE</h3>
+            </div>
+            <div class="flex justifycenter">
+
+                <div class="cardqualite txtcenter marright400">
+                    <img src="assets/curieux.png" alt="">
+                    <h2>Curieux</h2>
+                </div>
+
+                <div class="cardqualite txtcenter ">
+                    <img src="assets/serieux.png" alt="">
+                    <h2>Sérieux</h2>
+                </div>
+            </div>
+
+            <div class="flex justifycenter martop100">
+
+
+                <div class="cardqualite txtcenter marright400">
+                    <img src="assets/travaille carré.png" alt="">
+                    <h2>travaille carré</h2>
+                </div>
+
+                <div class="cardqualite txtcenter">
+                    <img src="assets/desireux d'apprendre.png" alt="">
+                    <h2> désireux d'apprendre</h2>
+                </div>
+
+
+            </div>
+
+
+            <div class="flex justifycenter txtcenter martop100">
+
+                <div class="cardqualite">
+                    <img src="assets/esprit d'équipe.png" alt="">
+                    <h2> esprit d'équipe </h2>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer>
+        <div>
+            <h2></h2>
+            <a href="">romaincharles42@gmail.com</a>
+        </div>
+        <a href="">
+            <link rel="stylesheet" href=""><img src="" alt="">
+        </a>
+    </footer>
 
 </body>
+
 </html>
