@@ -6,7 +6,20 @@
 }
 
 .body {
-    background-color: #ffffff;
+    background-color: #23253B;
+}
+
+.colorbody{
+    color: #dcd6d6;
+}
+
+.bgcolor{
+    background-color: #b4bafe;
+}
+
+
+.bgcolorprojet{
+    background-color: #5c1e2e;
 }
 
 /*#23253B*/
@@ -35,7 +48,7 @@
 .cardqualite {
     border: 5px solid transparent;
     border-radius: 5px;
-    background-color: aquamarine;
+    background-color: #70f3f5;
     width: 20%;
     padding: 10px;
 }
@@ -48,6 +61,12 @@
 .aligncenter{
     align-items: center;
 } 
+
+
+.gap15{
+    gap: 15px;
+}
+
 
 .marright400 {
     margin-right: 400px;
@@ -77,6 +96,12 @@
 
 .w50{width: 50%;}
 
+
+.w100{
+    width: 100%;
+}
+
+
 .padbottom100{
     padding-bottom: 100px;
 } 
@@ -87,4 +112,8 @@
 
 .padbottom40{
     padding-bottom: 40px;
+}
+
+.padright20{
+    padding-right: 20px;
 }

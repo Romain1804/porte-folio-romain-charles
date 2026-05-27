@@ -13,42 +13,40 @@
 </head>
 
 <body class="body">
-    <header class="flex spacebetween">
+    <header class="flex spacebetween aligncenter bgcolor">
         <img src="assets/Image.jpg" alt="" class="photo">
-        <nav><a href="">Mon parcours</a><a href="">Mes competences</a><a href="">Mes projets</a><a href=""> Me
+        <nav class="padright20 flex gap15"><a href="#Mon parcours" class="">Mon parcours</a><a href="#Mes competences" class="">Mes competences</a><a href="#Mes projets" class="">Mes projets</a><a href="#Me Contacter" class=""> Me
                 Contacter</a></nav>
     </header>
     <main>
-        <section>
+        <!-- accueil -->
+        <section class="padbottom100 padtop100 colorbody txtcenter">
             <h1>HELLO !</h1>
             <P>Moi c'est romain
                 je cherche une alternance
             </P>
             <p>pour une formation data analyst/scientist ou developpeur Front-end</p>
         </section>
-        <section> <!-- mes projets  -->
-            <div>
+        <section id="Mes projets" class="bgcolorprojet"> <!-- mes projets  -->
+            <div class="txtcenter colorbody">
                 <h2>Mes projets</h2>
             </div>
 
             <div class="flex justifycenter ">
                 <!-- motion designer -->
-                <div class="cardqualite flex spacebetween marright400 txtcenter">
+                <div class="cardqualite marright400 ">
+                    <img src="assets/LEO-VANEL.png" alt="" class="w100 txtcenter">
                     <div>
-                    <img src="assets/Designer.png" alt="" class="w30">
-                    </div>
-                    
-                    <div>
-                        <h3>motion designer</h3>
+                        <a href="motiondesigner.html"><h3>motion designer</h3></a>
                         <p>exercice durant la formation la toile dans lequel je devais realiser un site suivant un
                             modèle
                             selectionné et des consigne en mise en page</p>
                     </div>
                 </div>
                 <!-- interno -->
-                <div class="cardqualite txtcenter">
-                    <img src="assets/interno mockup.png" alt="" class="w30">
-                    <h3>interno</h3>
+                <div class="cardqualite ">
+                    <img src="assets/INTERNO.png" alt="" class="w100 txtcenter">
+                    <a href="interno.html"><h3>interno</h3></a>
                     <p>exercice durant la formation la toile dans lequel je devais realiser un site suivant un modèle
                         selectionné et des consigne en mise en page</p>
                 </div>
@@ -56,24 +54,26 @@
 
             <div class="flex justifycenter martop100">
                 <!-- application sport figma  -->
-                <div class="cardqualite marright400 txtcenter">
-                    <img src="assets/appli sport figma.png" alt="" class="w30">
-                    <h3>application sport figma</h3>
+                <div class="cardqualite marright400 ">
+                    <img src="assets/INTERNO-1.png" alt="" class="w100 txtcenter">
+                    <a href="applisportfigma.html"><h3>application sport figma</h3></a>
                     <p>exercice durant la formation la toile dans lequel je devais realiser un site suivant un modèle
                     </p>
                 </div>
 
 
-                <div class="cardqualite txtcenter">
-                    <img src="assets/site monster_hunter.png" alt="" class="w30">
-                    <h3>projet perso : monster hunter wheel party hunt </h3>
+                <div class="cardqualite ">
+                    <img src="assets/MONSTER-HUNTER.png" alt="" class="w100 txtcenter">
+                    <a href="monster hunter site.html"><h3>projet perso : monster hunter wheel party hunt </h3></a>
                     <p>projet réalisé dans le cadre du personnel. il à été réalisé dans le but de créer un plus qui
                         permettrait de mieux profiter des jeux monster hunter</p>
                 </div>
             </div>
         </section>
-        <section class="martop100  justifycenter"><!-- mon parcours  -->
-            <div> mon parcours</div>
+        <section id="Mon parcours"  class="martop100  justifycenter"><!-- mon parcours  -->
+            <div class="txtcenter padbottom40">
+                <h2 class="colorbody">Mon parcours</h2>
+            </div>
             <div class="flex spacebetween txtcenter ">
                 <div class="cardqualite w30">
                     <img src="assets/beauregard.jpg" alt="" class="w50 padtop100 padbottom100">
@@ -101,9 +101,9 @@
         </section>
 
         <!-- mes qualité -->
-        <section class="martop100">
+        <section  id="Mes competences" class="martop100 bgcolorprojet">
             <div class="flex justifycenter">
-                <h3>MES QUALITE</h3>
+                <h3 class="colorbody">MES QUALITE</h3>
             </div>
             <div class="flex justifycenter">
 
@@ -149,14 +149,13 @@
 
 
     </main>
-    <footer>
+    <footer id="Me Contacter" class="padtop100  txtcenter bgcolor">
         <div>
-            <h2></h2>
-            <a href="">romaincharles42@gmail.com</a>
+            <h2 class="padbottom40"> Contact</h2>
+            <a href="" class=" padbottom40 ">romaincharles42@gmail.com</a>
         </div>
-        <a href="">
-            <link rel="stylesheet" href=""><img src="" alt="">
-        </a>
+        <a href="https://www.linkedin.com/in/romain-charles-056485252?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="">
+            Profil linkdin</a>
     </footer>
 
 </body>
